@@ -1,0 +1,39 @@
+it is a js library used to create ui efficiently with dynamic updation because it has component based architecture and code is modular
+library vs framework
+focuses on single page application which changes dynamically
+it uses virtual DOM
+it has state managemnet
+it provides hooks
+if u used a component 100 times. then if we change the main component then all the 100 components will be changed
+node --version to check version of node
+npm create vite@latest
+npm install, npm run dev
+Needed modules will be installed in node_modules folder after npm install
+after clicking npm run dev, u'll get a local host website link
+in public, we have static files which are needed like icon
+in src folder, there is assets folder for like font css files and other.
+index.html file is linked to main.jsx
+main.jsx is using App component
+for this root id document.getElementByID('root'), render App
+createRoot(document.getElementById('root')).render(
+    <App />
+)
+first we are in index.html, it is linked to main.jsx for a div of id 'root'
+In main.jsx, we need to go to App component which is in App.jsx
+in  app.jsx
+function App() {
+  const [count, setCount] = useState(0)
+  return (
+    <>
+      <p>Hello </p> //displays hello in the react page
+    </>
+  )
+}
+styling can be done in App.css and index.css
+first index.html is rendered after npm run dev and we created a div in index.html whose id is set as 'root'
+root is script which is main.jsx
+main.jsx says to render App.jsx
+jsx- java script xml. it is like using both html nd js 
+when we want to render jsx, it converts to react code then it converts to html code. this html code renders ur browser
+in src/components, i'm creating a navbar.jsx component -> boilerplate = rafce
+in main.jsx import  Navbar from './components/Navbar.jsx' then we can : Same like <App /> component, we can use <Navbar /> component in main.jsx 
