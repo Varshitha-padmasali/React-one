@@ -37,3 +37,16 @@ jsx- java script xml. it is like using both html nd js
 when we want to render jsx, it converts to react code then it converts to html code. this html code renders ur browser
 in src/components, i'm creating a navbar.jsx component -> boilerplate = rafce
 in main.jsx import  Navbar from './components/Navbar.jsx' then we can : Same like <App /> component, we can use <Navbar /> component in main.jsx 
+
+Part 2
+components in react are like functions.
+We can make function based and also class based components.
+Component is like a function that gives u html like code to render
+const UserCard = () => {
+  return (
+    <div>    
+    </div>
+  )
+}
+This arrow function is returning some code written in html
+in react, class is a reserved keyword. so for naming a div instead of class we use className
