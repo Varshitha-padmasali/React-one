@@ -31,9 +31,7 @@ function App() {
 }
 styling can be done in App.css and index.css
 first index.html is rendered after npm run dev and we created a div in index.html whose id is set as 'root'
-root is script which is main.jsx
-main.jsx says to render App.jsx
-jsx- java script xml. it is like using both html nd js 
+root is script which is main.jsx; main.jsx says to render App.jsx; jsx- java script xml. it is like using both html nd js 
 when we want to render jsx, it converts to react code then it converts to html code. this html code renders ur browser
 in src/components, i'm creating a navbar.jsx component -> boilerplate = rafce
 in main.jsx import  Navbar from './components/Navbar.jsx' then we can : Same like <App /> component, we can use <Navbar /> component in main.jsx 
